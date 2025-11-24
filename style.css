@@ -1,10 +1,10 @@
 :root { --bg:#0f1115; --panel:#161a22; --text:#e7eaf0; --accent:#4f86ff }
 * { box-sizing:border-box }
 html, body { height:100% }
-body { margin:0; background:var(--bg); color:var(--text); font-family:system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; overflow:hidden }
+body { margin:0; background:#ffffff; color:var(--text); font-family:system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; overflow:hidden }
 .toolbar { position:fixed; bottom:16px; left:50%; transform:translateX(-50%); display:flex; gap:12px; align-items:center; background:rgba(22,26,34,.65); backdrop-filter:blur(10px); border:1px solid #222734; border-radius:14px; padding:10px 12px; box-shadow:0 10px 28px rgba(0,0,0,.45); z-index:10 }
 .toolbar button { appearance:none; border:1px solid #2a3140; background:linear-gradient(180deg, #1b2130, #151a26); color:var(--text); width:52px; height:52px; border-radius:999px; cursor:pointer; font-size:22px; display:flex; align-items:center; justify-content:center; transition:transform .12s ease, border-color .12s ease, box-shadow .12s ease }
 .toolbar button:hover { border-color:#3a4458; transform:translateY(-1px); box-shadow:0 8px 18px rgba(0,0,0,.35) }
 .toolbar button:active { transform:translateY(0) scale(.98) }
-.viewer { position:fixed; inset:0; overflow:hidden; touch-action:none; background:radial-gradient(1200px circle at 50% 50%, #121620, #0b0d12) }
+.viewer { position:fixed; inset:0; overflow:hidden; touch-action:none; background:none }
 #mapImage { position:absolute; top:0; left:0; transform-origin:0 0; will-change:transform; user-select:none }
