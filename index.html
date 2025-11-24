@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+  <title>Mapa interactivo</title>
+  <link rel="preload" href="cara1.png" as="image" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="toolbar">
+    <button id="zoomOut" aria-label="Alejar">−</button>
+    <button id="reset" aria-label="Reiniciar">⟲</button>
+    <button id="zoomIn" aria-label="Acercar">+</button>
+  </div>
+  <div id="viewer" class="viewer" aria-label="Mapa interactivo">
+    <img id="mapImage" src="cara1.png" alt="Mapa" draggable="false" />
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
